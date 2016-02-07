@@ -49,7 +49,7 @@ Since Materialize depends on jQuery, that line needs to be included after jQuery
 
 ## You want to contribute?
 
-1. (Fork)[https://github.com/Skudo/materialize-rails/fork] materialize-rails.
+1. [Fork](https://github.com/Skudo/materialize-rails/fork) materialize-rails.
 2. Add your contributions in a branch on your fork.
 3. Push the changes in your branch.
 4. Create a new pull request.

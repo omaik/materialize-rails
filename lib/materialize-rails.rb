@@ -13,7 +13,7 @@ module MaterializeRails
     end
 
     def assets_path
-      @assets_path ||= File.join gem_path, 'app', 'assets'
+      @assets_path ||= File.join gem_path, 'vendor', 'assets'
     end
 
     def gem_path

@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/materialize-rails.svg)](https://badge.fury.io/rb/materialize-rails)
+
 # materialize-rails
 
 `materialize-rails` makes using [Materialize](http://materializecss.com) in your Rails 4+ app easy.

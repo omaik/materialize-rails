@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Materialize (http://materializecss.com) set up for the Rails 4+ asset pipeline.}
   spec.description   = %q{Materialize (http://materializecss.com) set up for the Rails 4+ asset pipeline.}
   spec.homepage      = "https://github.com/Skudo/materialize-rails"
-  # spec.license       = "MIT"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ["lib"]

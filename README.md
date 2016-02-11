@@ -4,6 +4,10 @@
 
 `materialize-rails` makes using [Materialize](http://materializecss.com) in your Rails 4+ app easy.
 
+This gem may contain custom patches applied on top of the Materialize release. Such releases of `materialize-rails` are marked as such in the version number.
+
+A lack of `custom[0-9]+` means that it only contains the original Materialize release.
+
 ## Installation
 
 Add
@@ -55,3 +59,5 @@ Since Materialize depends on jQuery, that line needs to be included after jQuery
 2. Add your contributions in a branch on your fork.
 3. Push the changes in your branch.
 4. Create a new pull request.
+
+Please note that Materialize-based contributions should go to [their GitHub account](https://github.com/Dogfalo/materialize), so your changes can be included right at the source.

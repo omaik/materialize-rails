@@ -178,11 +178,12 @@
 			// Smooth scroll to section
 		  $('a[href="#' + $(element).attr('id') + '"]').click(function(e) {
 		    e.preventDefault();
+				var scrollOffset = options.offsetScroll || 0;
 		    var offset = $(this.hash).offset().top + 1;
 
 //          offset - 200 allows elements near bottom of page to scroll
 
-	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
+	    	$('html, body').animate({ scrollTop: offset - scrollOffset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
 
 		  });
 		});

@@ -6,7 +6,9 @@
 
 This gem may contain custom patches applied on top of the Materialize release. Such releases of `materialize-rails` are marked as such in the version number.
 
-A lack of `custom[0-9]+` means that it only contains the original Materialize release.
+A lack of `custom[0-9]+` means that it only contains the original Materialize release. 
+
+*NOTE:* The `0.97.5` release of Materialize is an exception to this versioning pattern (mostly because I messed up). Its custom release will be `0.97.5.1`, `0.97.5.2` etc., hoping the Materialize guys won't ship their own `0.97.5.1`.
 
 ## Installation
 
